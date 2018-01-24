@@ -1,1 +1,0 @@
-cmd_/home/jeremy/rtl8822bu/8822bu.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/jeremy/rtl8822bu/8822bu.ko /home/jeremy/rtl8822bu/8822bu.o /home/jeremy/rtl8822bu/8822bu.mod.o
