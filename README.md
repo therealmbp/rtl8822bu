@@ -4,9 +4,9 @@ Driver for 802.11ac USB Adapter with
 RTL8812BU or RTL8822BU Chipset
 Only STA/Monitor Mode is supported, no AP.  
 
-To enter Monitor Mode:
-airmon-ng check-kill
-ip link set <interface> down
+To enter Monitor Mode:  
+airmon-ng check kill  
+ip link set <interface> down  
 iw dev <interface> set type monitor
 
 > NOTE: At least v4.7 is needed to compile this module
