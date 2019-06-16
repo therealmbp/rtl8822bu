@@ -1,7 +1,7 @@
 <u>**8822BU for Linux**</u>
 
 Driver for 802.11ac USB Adapter with  
-RTL8822BU chipset  
+RTL8812BU or RTL8822BU Chipset
 Only STA/Monitor Mode is supported, no AP.  
 
 A few known wireless cards that use this driver include 
@@ -15,6 +15,8 @@ A few known wireless cards that use this driver include
 
 Currently tested on X86_64 and ARM platform(s) **only**,  
 cross compile possible.
+
+Included Cross Compile option for ARM64.
 
 For compiling type  
 `make`  
